@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<jardesc>
+    <jar path="/Users/Lucas/Dropbox/achtungonline.com/basic/game.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Inda-spel/jardesc.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=Inda-spel/src&lt;core{Engine.java[Engine" manifestLocation="/Inda-spel/jarmanifest" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <folder path="/Inda-spel/media"/>
+        <file path="/Inda-spel/.project"/>
+        <file path="/Inda-spel/jarmanifest"/>
+        <file path="/Inda-spel/jardesc.jardesc"/>
+        <file path="/Inda-spel/README"/>
+        <folder path="/Inda-spel/doc"/>
+        <file path="/Inda-spel/.DS_Store"/>
+        <file path="/Inda-spel/.classpath"/>
+        <folder path="/Inda-spel/lib"/>
+        <javaElement handleIdentifier="=Inda-spel/src"/>
+    </selectedElements>
+</jardesc>

@@ -1,0 +1,222 @@
+/* BEGIN RESET */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+/* END RESET */
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('league_gothic-webfont.eot');
+    src: url('league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league_gothic-webfont.woff') format('woff'),
+         url('league_gothic-webfont.ttf') format('truetype'),
+         url('league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* BG STRETCHER */
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	position: fixed !important;
+	z-index: 1;
+}
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* END BG STRETCHER */
+
+
+body{
+	background-color:black;
+	font-family:Helvetica;
+	font-size:16px;
+	background-image:url("../img/background_dirty.jpg");
+	text-align:center;
+}
+
+.bg_black{
+	background-color:black !important;
+	background-image:none !important;
+}
+
+.big_link{
+	font-size:36px;
+}
+
+#background{
+	z-index: 2;
+	position: relative;
+}
+
+#container{
+	width:1160px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	text-align:left;
+}
+
+
+#logo{
+	position:relative;
+	top:11px;
+	width:560px;
+	float:left;
+	margin-right:15px;
+}
+
+#content{
+	position:relative;
+	width:580px;
+	float:left;
+}
+
+#content .last{
+	margin-bottom:10px;
+}
+
+#text{
+	height:328px;
+}
+
+#apply{
+	float:left;
+}
+
+#login{
+	position:absolute;
+	right:0px;
+	float:right;
+}
+
+#login h1, #apply h1{
+	margin-bottom:-8px;
+}
+
+#login a{
+	position:relative;
+	top:4px;
+	margin-bottom:10px;
+}
+
+#login .button{
+	position:relative;
+	top:12px;
+}
+
+#login_error{
+	width:270px;
+	margin-top:15px;
+}
+
+#login_error, #apply_error{
+	font-size:16px;
+}
+
+.button{
+	background-color:#970000;
+	width:65px;
+	text-align:center;
+	padding: 2px 0px 2px 0px;
+	color:#fff;
+	cursor:pointer;
+	margin-bottom:5px;
+}
+
+input[type=text], input[type=password], textarea{
+	display:block;
+	width:260px;
+	font-family:Helvetica;
+	font-size:15px;
+	margin-bottom:13px;
+	background-color:#000;
+	color:#fff;
+	border:3px solid black;
+	padding:5px;
+	overflow:none;
+}
+
+textarea{
+	height:50px;
+}
+
+.error{
+	border:3px solid #970000 !important;
+}
+
+.success{
+	background-color:#0D8000 !important;
+}
+
+textarea{
+	resize:none;
+}
+
+.line{
+	position:relative;
+	background-color:#000;
+	height:10px;
+	margin-bottom:8px;
+}
+
+h1{
+	color:#970000;
+	font-family:'LeagueGothicRegular', Helvetica, Arial;
+	font-size:48px;
+	margin-top:-5px;
+	margin-bottom:5px;
+}
+
+p{
+	margin-bottom:15px;
+	text-align:justify;
+}
+
+a{
+	color:#970000;
+	font-size:15px;
+}
+
+table{
+	width:700px;
+	border-collapse:collapse;
+}
+
+table td, table th{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+table th, table tfoot{
+	color:#970000;
+	font-family:'LeagueGothicRegular', Helvetica, Arial;
+	font-size:20px;
+	text-transform:uppercase;
+	min-width:30px;
+}
+
+.textcenter{
+	text-align:center;
+}
