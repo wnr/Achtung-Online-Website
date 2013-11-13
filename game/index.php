@@ -9,11 +9,8 @@ if(!isset($_SESSION["online"]) or $_SESSION["online"] != true){
 require_once("../head.php");
 
 printHead("../")
-?>
-
-<body class="bg_black">
-    <div class="jumbotron">
-        <div class="container">
+?> 
+        <div class="container" id="game_container">
             <applet code="org.lwjgl.util.applet.AppletLoader" archive="lwjgl_util_applet.jar" codebase="." width="800" height="600">
                 <param name="al_title" value="achtungonline">
                 <param name="al_main" value="org.newdawn.slick.AppletGameContainer">
@@ -34,6 +31,17 @@ printHead("../")
                 <param name="codebase_lookup" value="false">
             </applet>
         </div>
-    </div>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
-</html>
+
+<script>
+function changeGamePaddingTop() {
+  var headerHeight = $("#header_container").height();
+  $("#game_container").css({'paddingTop':headerHeight+'px'});
+}
+window.addEventListener('resize', function(event){
+  changeGamePaddingTop();
+});
+$(this).ready(changeGamePaddingTop());
+</script>
