@@ -1,0 +1,99 @@
+body{
+    background-image:url(../img/gaming_background.png);
+}
+
+#jumbotron{
+background-image:
+	url(../img/warning_stripes_down.png),
+	url(../img/warning_stripes2.png), 
+	url(../img/black_background_logo.png), 
+	url(../img/background_yellow.png);
+background-repeat:
+	repeat-x, 
+	repeat-x, 
+	no-repeat, 
+	repeat; 
+background-position:
+	0px bottom, 
+	0px 49px, 
+	center 90%, 
+	0px 0px; 
+background-size: 
+	auto, 
+	auto, 
+	auto 35%, 
+	auto;
+}
+
+#body_container{
+	color:#A0A0A0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
+.jumbotron h1 {
+  line-height: 1;
+  color: inherit;
+}
+
+.jumbotron p {
+  line-height: 1.4;
+}
+
+.container .jumbotron {
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+}
+
+
+  background-image:
+  url(../img/warning_stripes_down.png),
+  url(../img/warning_stripes2.png), 
+  url(../img/black_background_logo.png), 
+  url(../img/background_yellow.png);
+  background-repeat:
+  repeat-x, 
+  repeat-x, 
+  no-repeat, 
+  repeat; 
+background-position:
+  0px bottom, 
+  0px 49px, 
+  center 90%, 
+  0px 0px; 
+background-size: 
+  auto, 
+  auto, 
+  auto 35%, 
+  auto;
