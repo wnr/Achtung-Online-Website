@@ -5,7 +5,7 @@ printHead();
 require("jumbotron_header.php");
 ?>
 <h1>Achtung Online</h1> 
-<p>Welcome to Achtung Online! This is the game for you that seeks a simple, addictive and yet extremely fun game to challange friends with. Gather around with your favourite snacks and explore the randomness of the newly created version of the well known game "achtung die kurve". Not only have we created crazy powerups and game modes - we have also added a lot of awesesomeness into the game! </p>
+<p>Welcome to Achtung Online! This is the game for you that seeks a simple, addictive and yet extremely fun game to challange friends with. Gather around with your favourite snacks and explore the randomness of the newly created version of the well known game "achtung die kurve". Not only have we created crazy powerups and game modes - we have also added a lot of awesomeness into the game! </p>
 <a id="start_game_button" href="game/">
   <img src="img/btn_dark.png" />
 </a>
