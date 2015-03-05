@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+
+Name: __MACOSX/META-INF/._.DS_Store
+SHA1-Digest: tk0ZdCfFOK8XEJzzQDKQj4Kkvl8=
+
+Name: __MACOSX/._openal.dylib
+SHA1-Digest: ndZF4H7oQ3vfu3ZnjtYfI4vX9Rc=
+
+Name: liblwjgl.jnilib
+SHA1-Digest: tlr/CB7V9PvsdVFy/Zf4eATbagw=
+
+Name: __MACOSX/META-INF/._MANIFEST.MF
+SHA1-Digest: 2EpA4H2LCWgyQfSV78f5NEx8/N8=
+
+Name: openal.dylib
+SHA1-Digest: MHAVuu7VFOV5GRu8656B+fvD5vg=
+
+Name: __MACOSX/._META-INF
+SHA1-Digest: ndZF4H7oQ3vfu3ZnjtYfI4vX9Rc=
+
+Name: META-INF/.DS_Store
+SHA1-Digest: UsN5M6850r0P4Lx0WZedoARGylQ=
+
+Name: __MACOSX/._liblwjgl.jnilib
+SHA1-Digest: ndZF4H7oQ3vfu3ZnjtYfI4vX9Rc=
+
+Name: libjinput-osx.jnilib
+SHA1-Digest: ahZ/c2+HRokmZfGR4wk3xdluXmU=
+
+Name: __MACOSX/._libjinput-osx.jnilib
+SHA1-Digest: ndZF4H7oQ3vfu3ZnjtYfI4vX9Rc=
+

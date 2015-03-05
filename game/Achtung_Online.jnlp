@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- JNLP File for Achtung Online --> 
+<jnlp 
+  spec="1.0+" 
+  codebase="http://www.achtungonline.com/game" 
+  href="Achtung_Online.jnlp"> 
+  <information> 
+    <title>Achtung Online</title> 
+    <vendor>Achtung Online team</vendor>
+    <homepage href="http://www.achtungonline.com/"/> 
+    <description>Kill your friends… worms.</description> 
+    <description kind="short">Multiplayer arcade</description> 
+    <offline-allowed/> 
+  </information> 
+  <security> 
+      <all-permissions/> 
+  </security>
+  <resources> 
+    <j2se version="1.6+"/> 
+    <jar href="game.jar" main="true"/>
+    <jar href="slick.jar"/>
+    <jar href="lwjgl.jar"/>
+    <jar href="jinput.jar"/>
+    <jar href="jogg-0.0.7.jar"/>
+    <jar href="jorbis-0.0.15.jar"/>
+    <jar href="kryonet-1.04-all.jar"/>
+  </resources> 
+  <resources os="Windows">
+    <j2se version="1.6+"/> 
+    <nativelib href="windows_natives.jar"/>
+  </resources>
+  <resources os="Mac OS X">
+    <j2se version="1.6+"/> 
+    <nativelib href="macosx_natives.jar"/>
+  </resources> 
+  <resources os="Linux">
+    <j2se version="1.6+"/> 
+    <nativelib href="linux_natives.jar"/>
+  </resources> 
+  <resources os="SunOS">
+    <j2se version="1.6+"/> 
+    <nativelib href="solaris_natives.jar"/>
+  </resources>
+  <application-desc 
+	main-class="client.core.Engine"/> 
+</jnlp>

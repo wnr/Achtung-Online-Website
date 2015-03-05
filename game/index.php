@@ -15,20 +15,21 @@ printHead("../")
                 <param name="al_title" value="achtungonline">
                 <param name="al_main" value="org.newdawn.slick.AppletGameContainer">
                 <param name="al_debug" value="false">
-                <param name="game" value="core.Engine">
-                <param name="al_logo" value="appletlogo.png">
+                <param name="game" value="client.core.Engine">
+                <param name="al_logo" value="appletlogo.gif">
                 <param name="al_progressbar" value="appletprogress.gif">
-                <param name="al_jars" value="game.jar, lwjgl.jar, jinput.jar, lwjgl_util.jar, slick.jar, ibxm.jar, jogg-0.0.7.jar, jorbis-0.0.15.jar">
+                <param name="al_jars" value="game.jar, lwjgl.jar, slick.jar, jogg-0.0.7.jar, jorbis-0.0.15.jar, kryonet-1.04-all.jar, jinput.jar, asm-debug-all.jar, ibxm.jar, jnlp.jar, lwjgl_util.jar, AppleJavaExtensions.jar, tinylinepp.jar, lzma.jar">
                 <param name="al_windows" value="windows_natives.jar">
                 <param name="al_linux" value="linux_natives.jar">
                 <param name="al_mac" value="macosx_natives.jar">
                 <param name="al_solaris" value="solaris_natives.jar">
-                <param name="al_version" value="0.2">
-                <param name="al_cache" value="true">
+                <param name="al_version" value="0.7">
+                <!-- <param name="al_cache" value="true"> -->
                 <param name="al_prepend_host" value="true">
-                <param name="java_arguments" value="-Dsun.java2d.noddraw=true -Dsun.awt.noerasebackground=true -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.pmoffscreen=false">
+                <!-- <param name="java_arguments" value="-Djava.library.path=/nativestest"> -->
+
                 <param name="separate_jvm" value="true">
-                <param name="codebase_lookup" value="false">
+                <!-- <param name="codebase_lookup" value="false"> -->
             </applet>
         </div>
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

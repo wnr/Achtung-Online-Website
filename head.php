@@ -20,10 +20,10 @@ function printHead($root = "./", $js = true){
     <div class="navbar navbar-inverse navbar-fixed-top" id="header_container">
       <div class="container">
           <a class="navbar-brand" href="/">Home</a>
-          <a class="navbar-brand" href="game/">Play</a>
+          <a class="navbar-brand" href="game/Achtung_Online.jnlp">Play</a>
           <a class="navbar-brand" href="https://www.facebook.com/achtungonline">Community</a>
-          <iframe id = "facebook_frame"src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com/achtungonline&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:30px; margin-top: 15px;" allowTransparency="true" ></iframe>
-      </div>
+		  <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fachtungonline&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;colorscheme=dark&amp;height=35&amp;appId=534043489970951" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:30px; margin-top: 15px; width:400px" allowTransparency="true"></iframe>
+          </div>
     </div>';
 } 
 ?>
