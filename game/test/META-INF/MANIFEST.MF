@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: lib/jogg-0.0.7.jar, lib/jorbis-0.0.15.jar, lib/kryonet-1.0
+ 4.jar, lib/lwjgl.jar, lib/slick.jar
+Permissions: sandbox
+Created-By: 1.6.0_45 (Apple Inc.)
+Main-Class: client.core.Engine
+
